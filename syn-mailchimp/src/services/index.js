@@ -1,0 +1,10 @@
+module.exports.authService = require('./auth.service');
+module.exports.emailService = require('./email.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+module.exports.eventsairService = require('./eventsair.service');
+module.exports.registrationServices = require('./registrations.service');
+module.exports.tagsServices = require('./tags.service');
+module.exports.batchesServices = require('./batches.service');
+module.exports.dtcmServices = require('./dtcm.service');
+module.exports.dtcmServices = require('./dtcm.service');

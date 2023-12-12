@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Poppins:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens:{
+            'xs':{'min':'320px','max':'567px'}
+          },
+          colors: {
+            primaryBlue: '#3061a5',
+            primaryOrange: '#ed952b',
+            darkOrange: '#f36e21',
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/1ec3f982a2.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-[Poppins]">
+<header class="bg-white md:bg-primaryBlue py-5">
+  <nav class="flex justify-center items-center">
+    <div class="">
+      <img src="https://www.kifmc.com/img/KIFMC.svg" class="w-16 md:hidden"  alt="logo"/>
+    </div>
+    <div class="">
+      <ul class="flex items-center gap-4">
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">Home</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">About</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">Chairman's Message</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">SPEAKERs</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">Committee</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">Program</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase"  href="#">Sponsors</a></li>
+         <li><a class="text-white hover:text-primaryOrange uppercase" href="#">Poster Competation</a></li>
+
+      </ul>
+    </div>
+    <div class="ml-3">
+       <button class="bg-primaryOrange text-white font-[Poppins] rounded-full px-5 py-2 hover:bg-white hover:text-primaryOrange">Registeration</button>
+    </div>
+
+  </nav>
+  </div>
+</header>
+
+
+
+<!--
+  <div class="max-w-[1320px] mx-auto md:py-[80px] py-5 flex flex-col sm:flex-row">
+     <div class="basis-[45%]">
+      <img src="https://source.unsplash.com/random/200x200" class="w-full pb-5"/>
+     </div>
+     <div class="basis-[55%] px-5">
+      <h1 class="text-5xl font-bold">Title</h1>
+      <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat, mollis neque eu, eleifend elit. Vestibulum non risus at erat cursus commodo. Nam interdum eros nec risus lobortis, sed vehicula nunc tincidunt. Nam semper egestas orci in placerat. Quisque pretium sem a augue faucibus, non ornare augue gravida. Cras at ante nec erat tincidunt fermentum. Fusce justo quam, lacinia eu dictum eget, tempus id nisi. Mauris efficitur ante sed odio volutpat, sit amet porta justo fringilla. Pellentesque sodales sapien non quam venenatis, sit amet ultricies leo suscipit. Aenean volutpat egestas semper. Integer nulla magna, tincidunt non venenatis et, laoreet in sem. Aliquam erat volutpat.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat, mollis neque eu, eleifend elit. Vestibulum non risus at erat cursus commodo. Nam interdum eros nec risus lobortis, sed vehicula nunc tincidunt. Nam semper egestas orci in placerat. Quisque pretium sem a augue faucibus, non ornare augue gravida. Cras at ante nec erat tincidunt fermentum. Fusce justo quam, lacinia eu dictum eget, tempus id nisi. Mauris efficitur ante sed odio volutpat, sit amet porta justo fringilla. Pellentesque sodales sapien non quam venenatis, sit amet ultricies leo suscipit. Aenean volutpat egestas semper. Integer nulla magna, tincidunt non venenatis et, laoreet in sem. Aliquam erat volutpat.</p>
+     </div>
+  </div> -->
+<!-- <div class="max-w-[1320px] py-5 mx-auto">
+  <h3 class="text-5xl text-center">Our Services</h3>
+  <div class="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-6">
+    <div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+       <i class="fas fa-laptop-code animate-bounce text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+      <h3 class="text-xl">Web Design</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+    </div>
+    <div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+      <i class="fas fa-laptop-code text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+     <h3 class="text-xl">Web Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+   </div>
+   <div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+    <i class="fas fa-laptop-code text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+   <h3 class="text-xl">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+ </div>
+ <div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+  <i class="fas fa-laptop-code text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+ <h3 class="text-xl">Web Design</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+</div>
+<div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+  <i class="fas fa-laptop-code text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+ <h3 class="text-xl">Web Design</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+</div>
+<div class="group shadow-lg text-center p-5 hover:bg-blue-500 hover:text-white duration-100">
+  <i class="fas fa-laptop-code text-3xl text-center text-blue-500 py-3 group-hover:text-white"></i>
+ <h3 class="text-xl">Web Design</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at lorem placerat</p>
+</div>
+  </div>
+
+
+</div> -->
+
+<!--
+
+
+<div class="max-w-[1320px] mx-auto">
+     <h1 class="text-center text-4xl py-5"> Products</h1>
+     <div class="grid lg:grid-cols-4 md:grid-cols-3 xs:grid-cols-1 gap-3">
+       <div class="shadow-lg overflow-hidden  rounded">
+          <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+          <div class="text-center">
+            <h3 class="py-3 text-3xl">Title</h3>
+            <p class="pb-3">Price: 3000</p>
+          </div>
+       </div>
+       <div class="shadow-lg overflow-hidden  rounded">
+        <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+        <div class="text-center">
+          <h3 class="py-3 text-3xl">Title</h3>
+          <p class="pb-3">Price: 3000</p>
+        </div>
+     </div>
+     <div class="shadow-lg overflow-hidden  rounded">
+      <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+      <div class="text-center">
+        <h3 class="py-3 text-3xl">Title</h3>
+        <p class="pb-3">Price: 3000</p>
+      </div>
+   </div>
+   <div class="shadow-lg overflow-hidden  rounded">
+    <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+    <div class="text-center">
+      <h3 class="py-3 text-3xl">Title</h3>
+      <p class="pb-3">Price: 3000</p>
+    </div>
+ </div>
+ <div class="shadow-lg overflow-hidden  rounded">
+  <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+  <div class="text-center">
+    <h3 class="py-3 text-3xl">Title</h3>
+    <p class="pb-3">Price: 3000</p>
+  </div>
+</div>
+<div class="shadow-lg overflow-hidden  rounded">
+  <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+  <div class="text-center">
+    <h3 class="py-3 text-3xl">Title</h3>
+    <p class="pb-3">Price: 3000</p>
+  </div>
+</div>
+<div class="shadow-lg overflow-hidden  rounded">
+  <img src="https://source.unsplash.com/random/300x300" class="object-fill w-full hover:scale-110 duration-1000" />
+  <div class="text-center">
+    <h3 class="py-3 text-3xl">Title</h3>
+    <p class="pb-3">Price: 3000</p>
+  </div>
+</div>
+
+
+     </div>
+
+    </div> -->
+
+  <!-- <div class="container max-w-[1200px] mx-auto grid lg:grid-cols-4 gap-5 md:grid-cols-2 xs:grid-cols-1">
+    <div class="text-white bg-black py-5 col-start-2 col-end-4 text-center">Gllo</div>
+    <div class="text-white bg-black py-5 text-center">Gllo</div>
+    <div class="text-white bg-black py-5 flex justify-center items-center text-center">Gllo</div>
+    <div class="text-white bg-black py-5 text-center">Gllo</div>
+    <div class="text-white bg-black py-5 text-center">Gllo</div>
+    <div class="text-white bg-black py-5 text-center">Gllo</div>
+    <div class="text-white bg-black py-5 text-center">Gllo</div>
+  </div>
+
+  <div class="container max-w-[1200px] py-5 mx-auto grid lg:grid-rows-3 gap-5 md:grid-rows-2 xs:grid-rows-1 grid-flow-col">
+    <div class="text-white bg-red-900 py-5 text-center">1 Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">2Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">3 Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">4Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">5Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">6Gllo</div>
+    <div class="text-white bg-red-900 py-5 text-center">7Gllo</div>
+  </div> -->
+
+</body>
+</html>
